@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.main-body{
+    width: 100%;
+    height:auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: fixed;
+    z-index: 1;
+}
+.left-section{
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+.img{
+     width: 195px;
+    font-family: inherit;
+}
+.right-section{
+    width: 80%;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+}
+.list{
+    overflow: hidden;
+    list-style-type: none;
+     color: #ffffff;
+     padding-top: 20px;
+}
+li{
+    float: left;
+    margin-left: 32px;
+   font-size: 14px;
+   font-weight: normal;
+   font-family: "Roboto";
+}
+li:hover{
+    color: orangered;
+}
+.home{
+    color: orangered;
+}
+.home:hover{
+    color: rgb(253, 252, 252);
+
+}
+.img-div{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.input{
+    width: 100%;
+    height: 100px;
+    background:#929292;
+    color: rgb(240, 240, 9);
+     font-family: inherit;
+     padding-top: 100px;
+    
+}
+button{
+    width: 200px;
+    height: 50px;
+    background: #fbb52f;
+    color: #000000;
+    text-align: center;
+    margin-left: 105px;
+    border-radius: 9px;
+    border-color:#fbb52f;
+}
+button:hover{
+    background: #000000;
+    color: #fbb52f;
+    border: #000000;  
+}
+.vehicle-img{
+    width: 100%;
+    height: auto;
+}
+.img2{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background:#54595f;
+    padding-left: 10px;
+}
+.footer1{
+    width: 25%;
+    height: 100px;
+    float: left ;
+}
+.no{
+    font-size: 17px;
+    color:#fbb52f;
+    padding-top: 38px;
+    padding-left: 193px;
+    font-family: "Montserrat", Sans-serif;
+    letter-spacing: 2px;
+    text-decoration:solid;
+    font-size: 10px;
+}
+.footer2{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+.img3{
+    width: 71px;
+    height: 32px;
+    padding-left: 118px;
+    padding-top: 19px;
+}
+.writes{
+    color: #c4b583;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.footer3{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+.fa-brands{
+    font-size: 12px;
+}
+.icon{
+    padding-left: 60px;
+}
+.no1{
+    padding-left: 58px;
+}
+.img4{
+    width: 81px;
+    height: 51px;
+    padding-top: 21px;
+}
